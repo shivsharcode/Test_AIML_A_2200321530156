@@ -13,24 +13,41 @@
         <h1>Currency Converter</h1>
     </header>
 
-    <div class="amount">
-        <div>Amount</div>
-        <input type="text">
-        <div class="currency-from"></div>
+
+    <div class="container">
+        <form action="">
+            <div class="amount">
+                <p>Amount</p>
+                <input type="text" value="1">
+            </div>
+
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <select name="from" id=""></select>
+                </div>
+
+                <div class="to">
+                    <p>To</p>
+                    <select name="to" id=""></select>
+                </div>
+
+                <div class="msg">Converted = </div>
+                <button id="btn">Convert</button>
+            </div>
+
+
+
+
+        </form>
     </div>
 
-    <div class="convert">
-        <div>Convert</div>
-        <input type="text">
-        <div class="currency-to"></div>
-    </div>
+  
 
-    <button onclick="">
-        Convert
-    </button>
+   
     
 
-
+    <script src="../JS/codes.js"></script>
     <script src="../JS/currencyConverter.js"></script>
 </body>
 </html>
