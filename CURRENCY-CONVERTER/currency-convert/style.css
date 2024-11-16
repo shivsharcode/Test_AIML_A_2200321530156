@@ -1,0 +1,65 @@
+
+.converter{
+    min-height: 25rem;
+    max-width: 25rem;
+    border: 2px solid #ccc;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.converter-header{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.converter input{
+    padding: 4px 10px;
+    width: 100%;
+    font-size: 1rem;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+.converter .select-currency{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+
+}
+
+.select-currency select{
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    width: 20%;
+}
+
+#convert-amount-btn-id{
+    display: block;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+
+    font-weight: bold;
+    color: #fcf9f9;
+    background-color: rgb(27, 170, 27);
+    cursor: pointer;
+    
+    margin-top: 2rem;
+    justify-self: center;
+}
+#convert-amount-btn-id:hover{
+    filter: brightness(110%);
+}
+#convert-amount-btn-id:active{
+    transform: scale(0.95);
+}
+
+
+#result{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
